@@ -29,7 +29,7 @@ BuildRequires:  python2-devel
 BuildRequires:  python-setuptools
 
 Requires:       python-XStatic
-Requires:       xstatic-angular-schema-form-common
+Requires:       xstatic-angular-schema-form-common = %{version}-%{release}
 
 %description -n python2-%{pypi_name}
 Angular-Schema-Form JavaScript library packaged
@@ -58,7 +58,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 
 Requires:       python3-XStatic
-Requires:       xstatic-angular-schema-form-common
+Requires:       xstatic-angular-schema-form-common = %{version}-%{release}
 
 %description -n python3-%{pypi_name}
 Angular-Schema-Form JavaScript library packaged
