@@ -29,6 +29,9 @@ BuildRequires:  python2-devel
 BuildRequires:  python-setuptools
 
 Requires:       python-XStatic
+Requires:       python-XStatic-Angular >= 1.2.1.1
+Requires:       python-XStatic-objectpath >= 1.2.1.0
+Requires:       python-XStatic-tv4 >= 1.2.7.0
 Requires:       xstatic-angular-schema-form-common = %{version}-%{release}
 
 %description -n python2-%{pypi_name}
@@ -58,6 +61,9 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 
 Requires:       python3-XStatic
+Requires:       python3-XStatic-Angular >= 1.2.1.1
+Requires:       python3-XStatic-objectpath >= 1.2.1.0
+Requires:       python3-XStatic-tv4 >= 1.2.7.0
 Requires:       xstatic-angular-schema-form-common = %{version}-%{release}
 
 %description -n python3-%{pypi_name}
